@@ -72,6 +72,9 @@
     "validate-commit-msg": "^2.6.1",
     "webpack": "^2.7.0"
   },
+  "overrides": {
+    "graceful-fs": "^4.2.11"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
